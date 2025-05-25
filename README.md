@@ -3,3 +3,4 @@ AIradio
 把dataprocess.py与两个h5文件放到同一个文件夹后运行，就可以将数据集拆分成单独的cfile文件，cfile文件可用于各种无线电开源项目。
 drawwaves.py可以绘制训练集频谱图，里面提供了各种参数与滤波选项可以调整，start_idx可以设置为从第几张照片开始，因为这个程序可能会爆内存
 drawwave_test可以绘制测试集频谱图。
+wave2csv可以输出频谱图的数值表示
